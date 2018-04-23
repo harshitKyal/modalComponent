@@ -1,0 +1,161 @@
+body{
+	font-family: arial;
+}
+
+ .container {
+     margin:auto;
+     margin: 10%;
+}
+
+
+.modal-view {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+	
+}
+.modbtn{
+	margin: 30px 45px;
+}
+
+.content{
+	position: relative;
+	width:50%;
+	margin: auto;
+	padding: 0;
+	height: 38vh;
+
+	background: #fff;
+	border-radius: 3px;
+
+
+}
+#modal-button{
+	padding: 10px 15px;
+	color: white;
+	background-color: blue;
+	text-decoration: none;
+	border-radius: 8px;
+	font-size: 0.8em;
+}
+#header {
+	border-bottom: 1px solid #eee;
+	height: 7vh;
+	background-color: lightgreen;
+}
+#header p{
+	padding-left: 1%; 
+
+}
+
+#mbody {
+	height: 18vh;
+	border-bottom: 1px solid #eee;
+}
+
+#mbody p{
+	letter-spacing: 0.1em;
+	padding: 10px 15px; 
+}
+
+.modalTitle{
+	padding: 10px;
+
+}
+#footer {
+	height: 5vh;
+	
+}
+
+.modal-footer {
+	padding: 10px;
+	}
+
+	#close-sign{
+		right: 0;
+		position: absolute;
+		cursor: pointer;
+		font-size: 2em;
+		color:#035e59;
+		
+	}
+
+	#close-sign:hover{
+		color: black;
+		display: block;
+	}
+	
+
+.modal-footer #close{
+	padding: 10px 15px;
+	color: #fff;
+	background-color: #353a36;
+	text-decoration: none;
+	border-radius: 4px;
+	font-size: 0.8em;
+	margin-top: 2em;
+	text-transform: uppercase;
+}
+
+.modal-footer #save-changes{
+	padding: 10px 15px;
+	color: #fff;
+	background-color: blue;
+	text-decoration: none;
+	border-radius: 4px;
+	font-size: 0.8em;
+	margin-top: 2em;
+	text-transform: uppercase;
+}
+
+.modal-footer #close:hover{
+	
+	background-color: #0452a0;
+	
+}
+
+
+
+@media (max-width: 468px)
+{
+.content{
+	position: relative;
+	width:90%;
+	margin: auto;
+	padding: 0;
+	height: 38vh;
+
+	background: #fff;
+	border-radius: 3px;
+
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
